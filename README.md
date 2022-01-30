@@ -10,4 +10,6 @@ Convert CHITUBOX zip exported slices to WANHAO Duplicator D7 (Plus) csw format
     dotnet build -c Release WD7+ZipToCws.sln
 
 ## INFO
-Is a .net core 3.1 application using CoreCompat.System.Drawing library. Can be compiled & run on Linux & Windows.
+Is a .net core 3.1 application using CoreCompat.System.Drawing library.  
+Can be compiled & run on Linux & Windows.  
+On linux you will need libgdiplus mono library.
